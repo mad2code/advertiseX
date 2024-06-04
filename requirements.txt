@@ -1,0 +1,9 @@
+### requirements.txt
+
+confluent-kafka
+pyspark
+avro-python3
+prometheus_client
+apache-airflow
+pyyaml
+kubernetes

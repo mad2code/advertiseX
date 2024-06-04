@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "BidRequest",
+  "fields": [
+    {"name": "user_id", "type": "string"},
+    {"name": "auction_id", "type": "string"},
+    {"name": "timestamp", "type": "string"},
+    {"name": "targeting_criteria", "type": {"type": "map", "values": "string"}}
+  ]
+}

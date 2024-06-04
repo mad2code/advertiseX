@@ -1,0 +1,43 @@
+# config/constants.yaml
+
+kafka:
+  bootstrap_servers: "localhost:9092"
+  topics:
+    - name: "ad_impressions"
+      num_partitions: 6
+      replication_factor: 1
+    - name: "clicks_conversions"
+      num_partitions: 6
+      replication_factor: 1
+    - name: "bid_requests"
+      num_partitions: 6
+      replication_factor: 1
+
+iceberg:
+  checkpoint_path: "/Users/SGL/Scrape/misc/advertisex-data-pipeline/output/checkpoints"
+  table_path: "/Users/SGL/Scrape/misc/advertisex-data-pipeline/output/tables"
+  
+  ad_impressions:
+    table_name: "ad_impressions"
+    partition_field: "timestamp"
+    path: "/Users/SGL/Scrape/misc/advertisex-data-pipeline/output/ad_impressions"
+
+  clicks_conversions:
+    table_name: "clicks_conversions"
+    partition_field: "timestamp"
+    path: "/Users/SGL/Scrape/misc/advertisex-data-pipeline/output/clicks_conversions"
+
+  bid_requests:
+    table_name: "bid_requests"
+    partition_field: "timestamp"
+    path: "/Users/SGL/Scrape/misc/advertisex-data-pipeline/output/bid_requests"
+
+  attribution:
+    table_name: "attribution"
+    partition_field: "timestamp"
+    path: "/Users/SGL/Scrape/misc/advertisex-data-pipeline/output/attribution"
+
+schema_path: 
+  ad_impressions: "schemas/ad_impressions.avsc"
+  clicks_conversions: "schemas/clicks_conversions.avsc"
+  bid_requests: "schemas/bid_request.avsc"

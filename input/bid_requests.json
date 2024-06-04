@@ -1,0 +1,12 @@
+[
+    {"user_id": "u1", "auction_id": "201", "timestamp": "2024-05-31T12:00:00Z", "targeting_criteria": {"age": "25"}},
+    {"user_id": "u2", "auction_id": "202", "timestamp": "2024-05-31T12:01:00Z", "targeting_criteria": {"age": "30"}},
+    {"user_id": "u3", "auction_id": "203", "timestamp": "2024-05-31T12:02:00Z", "targeting_criteria": {"age": "35"}},
+    {"user_id": "u4", "auction_id": "204", "timestamp": "2024-05-31T12:03:00Z", "targeting_criteria": {"age": "40"}},
+    {"user_id": "u5", "auction_id": "205", "timestamp": "2024-05-31T12:04:00Z", "targeting_criteria": {"age": "45"}},
+    {"user_id": "u6", "auction_id": "206", "timestamp": "2024-05-31T12:05:00Z", "targeting_criteria": {"age": "50"}},
+    {"user_id": "u7", "auction_id": "207", "timestamp": "2024-05-31T12:06:00Z", "targeting_criteria": {"age": "55"}},
+    {"user_id": "u8", "auction_id": "208", "timestamp": "2024-05-31T12:07:00Z", "targeting_criteria": {"age": "60"}},
+    {"user_id": "u9", "auction_id": "209", "timestamp": "2024-05-31T12:08:00Z", "targeting_criteria": {"age": "65"}},
+    {"user_id": "u10", "auction_id": "210", "timestamp": "2024-05-31T12:09:00Z", "targeting_criteria": {"age": "70"}}
+]

@@ -1,0 +1,11 @@
+timestamp,user_id,campaign_id,conversion_type
+2024-05-31T12:00:00Z,u1,101,signup
+2024-05-31T12:01:00Z,u2,102,purchase
+2024-05-31T12:02:00Z,u3,103,signup
+2024-05-31T12:03:00Z,u4,104,purchase
+2024-05-31T12:04:00Z,u5,105,signup
+2024-05-31T12:05:00Z,u6,106,purchase
+2024-05-31T12:06:00Z,u7,107,signup
+2024-05-31T12:07:00Z,u8,108,purchase
+2024-05-31T12:08:00Z,u9,109,signup
+2024-05-31T12:09:00Z,u10,110,purchase
